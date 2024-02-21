@@ -5,14 +5,14 @@ public class Operation1 {
 
 	public static void main(String[] args) {
 		boolean b1 = true;
-		boolean b2 = !b1;   //단항 연산
+		boolean b2 = !b1;
 		int i1=70, i2=60;
-		int i3 = i1 + i2;   //이항 연산
-		int max = (i1>i2) ? i1 : i2;  //삼항 연산
+		int i3=i1+i2;
+		int max = (i1>i2) ? i1 : i2;
 		System.out.println("b1 : "+b1);
 		System.out.println("b2 : "+b2);
 		System.out.println("i3 : "+i3);
-		System.out.println("max :"+max);
+		System.out.println("max : "+max);
 	}
 
 }

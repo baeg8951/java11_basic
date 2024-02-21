@@ -3,16 +3,17 @@ package org.kh.site;
 public class Operation3 {
 		public static void main(String[] args) {
 			int a = 0;
-			a += 8; //a = a + 8  =>8
+			a+=8;
 			System.out.println("1. a="+a);
-			a -= 3;  //a = a - 3 =>5
+			a-=3;
 			System.out.println("2. a="+a);
-			a *= 5; //a = a*5    =>25
+			a*=5;
 			System.out.println("3. a="+a);
-			a /= 4; //a = a/4	=>6	
+			a/=4;
 			System.out.println("4. a="+a);
-			a %=2; // = a%2 => 0
+			a%=2;
 			System.out.println("5. a="+a);
+			
 	}
 
 }
