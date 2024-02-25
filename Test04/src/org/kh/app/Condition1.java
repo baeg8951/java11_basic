@@ -4,16 +4,14 @@ public class Condition1 {
 
 	public static void main(String[] args) {
 		int point = 80;
-		String pass = "불합격";
-		//판정(pass)은 점수(point)70점 이상이면, "합격","불합격"
-		if (point>=70) pass = "합격";
-		/* 
-		if(point>=70) {
-			pass = "합격";
-		}
-		if (point>=70) {pass = "합격";} */
-		System.out.printf("\n당신의 점수는 %d이며, 판정은 %s입니다.", point, pass);
-		String pass2 = (point>=70) ? "합격" : "불합격";
+		String pass = "합격";
+				
+		if(point<=75) pass ="불합격";
+		
+		System.out.printf("당신의 점수는 %d이며, 판정은 %s 입니다", point, pass);
+		System.out.println("\n당신의 점수는"+point+"이며, 판정은"+ pass +"입니다");
+				
+				
 	}
 
 }
